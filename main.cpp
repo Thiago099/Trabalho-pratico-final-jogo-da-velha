@@ -173,6 +173,7 @@ const string prefix[] = { "Há","A","B","C","Se","Um","Dois","Três","1","2","3"
 const string pvalue[] = { "a","a","b","c","c","1","2","3","1","2","3","1" ,"a"};
 const string sulfix[] = { "um","dois","três","1","2","3","há","a","b","c","se","sei","Ah" };
 const string svalue[] = { "1","2","3","1","2","3","a","a","b","c","c","c" ,"a"};
+//parse the generic azure speach into the specific context
 string parse(string str)
 {
     for (size_t i = 0; i < 13; i++)
