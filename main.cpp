@@ -148,10 +148,10 @@ bool win(int game[3][3], int value) {
 }
 
 
-// converte variaveis para um formato legivel
+// convert variables into the apropriated meaning
 const char encoding[] = { (char)254,'X','O' };
 const string encoding_semantinc[] = { "","xisinho","bolinha" };
-// faz o dezenho da matriz do jogo
+// print the game screen
 void print(int game[3][3]) {
     system("cls");
     cout << "  ";
